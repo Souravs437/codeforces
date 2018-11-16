@@ -1,4 +1,21 @@
 {
+  "CF45792534": {
+    "contest_id": 486,
+    "language": "GNU C++14",
+    "path": "codeforces\\486\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Calculating Function",
+    "problem_url": "https://codeforces.com/contest/486/problem/A",
+    "submission_id": "CF45792534",
+    "submission_url": "https://codeforces.com/contest/486/submission/45792534",
+    "tags": [
+      "implementation",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Nov/16/2018 13:44"
+  },
   "CF45792805": {
     "contest_id": 318,
     "language": "GNU C++14",
