@@ -1,4 +1,20 @@
 {
+  "CF45792887": {
+    "contest_id": 617,
+    "language": "GNU C++14",
+    "path": "codeforces\\617\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Elephant",
+    "problem_url": "https://codeforces.com/contest/617/problem/A",
+    "submission_id": "CF45792887",
+    "submission_url": "https://codeforces.com/contest/617/submission/45792887",
+    "tags": [
+      "math",
+      "*800"
+    ],
+    "timestamp": "Nov/16/2018 13:58"
+  },
   "CF45793116": {
     "contest_id": 59,
     "language": "GNU C++14",
