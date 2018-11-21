@@ -1,4 +1,22 @@
 {
+  "CF46015359": {
+    "contest_id": 274,
+    "language": "GNU C++14",
+    "path": "codeforces\\274\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "k-Multiple Free Set",
+    "problem_url": "https://codeforces.com/contest/274/problem/A",
+    "submission_id": "CF46015359",
+    "submission_url": "https://codeforces.com/contest/274/submission/46015359",
+    "tags": [
+      "binary search",
+      "greedy",
+      "sortings",
+      "*1500"
+    ],
+    "timestamp": "Nov/21/2018 08:04"
+  },
   "CF46028485": {
     "contest_id": 460,
     "language": "GNU C++14",
