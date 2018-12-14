@@ -1,4 +1,20 @@
 {
+  "CF47007510": {
+    "contest_id": 584,
+    "language": "GNU C++14",
+    "path": "codeforces\\584\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Olesya and Rodion",
+    "problem_url": "https://codeforces.com/contest/584/problem/A",
+    "submission_id": "CF47007510",
+    "submission_url": "https://codeforces.com/contest/584/submission/47007510",
+    "tags": [
+      "math",
+      "*1000"
+    ],
+    "timestamp": "Dec/14/2018 20:11"
+  },
   "CF47009407": {
     "contest_id": 867,
     "language": "GNU C++14",
