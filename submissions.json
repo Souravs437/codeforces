@@ -1,4 +1,20 @@
 {
+  "CF47009407": {
+    "contest_id": 867,
+    "language": "GNU C++14",
+    "path": "codeforces\\867\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Between the Offices",
+    "problem_url": "https://codeforces.com/contest/867/problem/A",
+    "submission_id": "CF47009407",
+    "submission_url": "https://codeforces.com/contest/867/submission/47009407",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Dec/14/2018 21:09"
+  },
   "CF47010107": {
     "contest_id": 427,
     "language": "GNU C++14",
