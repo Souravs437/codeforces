@@ -1,4 +1,21 @@
 {
+  "CF47326353": {
+    "contest_id": 268,
+    "language": "GNU C++14",
+    "path": "codeforces\\268\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Buttons",
+    "problem_url": "https://codeforces.com/contest/268/problem/B",
+    "submission_id": "CF47326353",
+    "submission_url": "https://codeforces.com/contest/268/submission/47326353",
+    "tags": [
+      "implementation",
+      "math",
+      "*1000"
+    ],
+    "timestamp": "Dec/21/2018 16:07"
+  },
   "CF47331694": {
     "contest_id": 489,
     "language": "GNU C++14",
