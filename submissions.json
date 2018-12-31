@@ -1,4 +1,22 @@
 {
+  "CF47789227": {
+    "contest_id": 1096,
+    "language": "GNU C++14",
+    "path": "codeforces\\1096\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Find Divisible",
+    "problem_url": "https://codeforces.com/contest/1096/problem/A",
+    "submission_id": "CF47789227",
+    "submission_url": "https://codeforces.com/contest/1096/submission/47789227",
+    "tags": [
+      "greedy",
+      "implementation",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Dec/31/2018 17:56"
+  },
   "CF47795463": {
     "contest_id": 25,
     "language": "GNU C++14",
