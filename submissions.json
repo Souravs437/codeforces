@@ -1,4 +1,20 @@
 {
+  "CF47789016": {
+    "contest_id": 1095,
+    "language": "GNU C++14",
+    "path": "codeforces\\1095\\D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Circular Dance",
+    "problem_url": "https://codeforces.com/contest/1095/problem/D",
+    "submission_id": "CF47789016",
+    "submission_url": "https://codeforces.com/contest/1095/submission/47789016",
+    "tags": [
+      "implementation",
+      "*1600"
+    ],
+    "timestamp": "Dec/31/2018 17:49"
+  },
   "CF47789227": {
     "contest_id": 1096,
     "language": "GNU C++14",
