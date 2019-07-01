@@ -1,4 +1,22 @@
 {
+  "CF56392694": {
+    "contest_id": 1176,
+    "language": "GNU C++14",
+    "path": "codeforces\\1176\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Lose it!",
+    "problem_url": "https://codeforces.com/contest/1176/problem/C",
+    "submission_id": "CF56392694",
+    "submission_url": "https://codeforces.com/contest/1176/submission/56392694",
+    "tags": [
+      "dp",
+      "greedy",
+      "implementation",
+      "*1300"
+    ],
+    "timestamp": "Jul/01/2019 18:44"
+  },
   "CF56537849": {
     "contest_id": 1182,
     "language": "GNU C++14",
