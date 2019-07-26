@@ -1,4 +1,21 @@
 {
+  "CF57810120": {
+    "contest_id": 479,
+    "language": "GNU C++14",
+    "path": "codeforces\\479\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Exams",
+    "problem_url": "https://codeforces.com/contest/479/problem/C",
+    "submission_id": "CF57810120",
+    "submission_url": "https://codeforces.com/contest/479/submission/57810120",
+    "tags": [
+      "greedy",
+      "sortings",
+      "*1400"
+    ],
+    "timestamp": "Jul/26/2019 22:23"
+  },
   "CF82271466": {
     "contest_id": 339,
     "language": "GNU C++14",
