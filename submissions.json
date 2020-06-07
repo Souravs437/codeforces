@@ -1,4 +1,23 @@
 {
+  "CF82752499": {
+    "contest_id": 770,
+    "language": "GNU C++14",
+    "path": "codeforces\\770\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Online Courses In BSU",
+    "problem_url": "https://codeforces.com/contest/770/problem/C",
+    "submission_id": "CF82752499",
+    "submission_url": "https://codeforces.com/contest/770/submission/82752499",
+    "tags": [
+      "*special problem",
+      "dfs and similar",
+      "graphs",
+      "implementation",
+      "*1500"
+    ],
+    "timestamp": "Jun/07/2020 11:19"
+  },
   "CF82761304": {
     "contest_id": 744,
     "language": "GNU C++14",
