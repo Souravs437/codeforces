@@ -1,4 +1,22 @@
 {
+  "CF82778259": {
+    "contest_id": 402,
+    "language": "GNU C++14",
+    "path": "codeforces\\402\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Searching for Graph",
+    "problem_url": "https://codeforces.com/contest/402/problem/C",
+    "submission_id": "CF82778259",
+    "submission_url": "https://codeforces.com/contest/402/submission/82778259",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "graphs",
+      "*1500"
+    ],
+    "timestamp": "Jun/07/2020 17:59"
+  },
   "CF82817073": {
     "contest_id": 1365,
     "language": "GNU C++14",
