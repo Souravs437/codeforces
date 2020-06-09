@@ -34,7 +34,7 @@ const ll mod = 1e9 + 7;
  
 string a , b ;
 ll m , d , len;
-vector<ll> arr;
+int arr[2005];
  
 ll dp[2005][2][2][2][2005];
  
@@ -88,9 +88,8 @@ ll go(ll idx , ll fl , ll offset , ll eve , ll rem) {
  
 ll get(string &s) {
 	mem(dp , -1);
-	arr.clear();
 	for(int i = 0 ; i < s.size() ; i++) {
-		arr.pb(s[i] - '0');
+		arr[i] = (s[i] - '0');
 	}
 
 	len = s.size();

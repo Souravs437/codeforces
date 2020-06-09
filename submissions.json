@@ -1,4 +1,20 @@
 {
+  "CF83189563": {
+    "contest_id": 628,
+    "language": "GNU C++14",
+    "path": "codeforces\\628\\D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Magic Numbers",
+    "problem_url": "https://codeforces.com/contest/628/problem/D",
+    "submission_id": "CF83189563",
+    "submission_url": "https://codeforces.com/contest/628/submission/83189563",
+    "tags": [
+      "dp",
+      "*2200"
+    ],
+    "timestamp": "Jun/09/2020 11:33"
+  },
   "CF83207064": {
     "contest_id": 628,
     "language": "GNU C++14",
