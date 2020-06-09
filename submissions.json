@@ -1,4 +1,20 @@
 {
+  "CF83237813": {
+    "contest_id": 128,
+    "language": "GNU C++14",
+    "path": "codeforces\\128\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Statues",
+    "problem_url": "https://codeforces.com/contest/128/problem/A",
+    "submission_id": "CF83237813",
+    "submission_url": "https://codeforces.com/contest/128/submission/83237813",
+    "tags": [
+      "dfs and similar",
+      "*1500"
+    ],
+    "timestamp": "Jun/09/2020 21:46"
+  },
   "CF83240196": {
     "contest_id": 329,
     "language": "GNU C++14",
