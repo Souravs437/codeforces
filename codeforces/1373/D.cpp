@@ -1,81 +1,84 @@
-#include "bits/stdc++.h"
+//SkGeN
+#include<iostream>
+#include<algorithm>
+#include<bitset>
+#include<cmath>
+#include<cstring>
+#include<climits>
+#include<deque>
+#include<queue>
+#include<vector>
+#include<set>
+#include<map>
+#include<unordered_set>
+#include<unordered_map>
+#include<bits/stdc++.h>
 using namespace std;
-
-#define S second
-#define F first
-#define all(a) a.begin() , a.end()
-#define pb push_back 
-#define DBG cout<<"debug\n";
-
+ 
 typedef long long ll;
-
+typedef pair<ll,ll> p64;
+typedef vector<ll> v64;
 const int N = 2 * 1e5 + 10;
-const ll inf = 9e18 + 9; 
+const ll inf = 1e18 + 100;
+const ll mod = 1e9 + 7;
+ 
+#define pb push_back
+#define mp make_pair
+#define ff first
+#define ss second
+#define rep(i,s,e) for(long long i=s;i<=e;i++)
+#define brep(i,s,e) for(long long i=s;i>=e;i--)
+#define all(x) x.begin(),x.end()
+#define mem(x,y) memset(x,y,sizeof(x))
+#define DANGER std::ios::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL)
 
-ll res;
-ll a[N];
+vector<ll> bb;
 
-ll dp[N][3];
-ll n;
-vector<ll> arr;
-ll go(ll idx , ll tt) {
-  if(idx >= arr.size()) {
-    return 0;
-  }
-  if(dp[idx][tt] + 1) {
-    return dp[idx][tt];
-  }
-  ll xx = 0 , yy = 0;
-  if(tt == 0) {
-    xx = arr[idx] + go(idx + 2, 0);
-    if(idx + 2 <= arr.size() - 1) {
-      yy = arr[idx] + go(idx + 1, 1);
-    } 
-  } else if(tt == 1) {
-    
-    if(idx + 3 <= arr.size() - 1) {
-      xx = arr[idx] + go(idx + 2, 1);
-    } 
-    if(idx + 1 <= arr.size() - 1) {
-      yy = arr[idx] + go(idx + 3, 2);
-    }
-  } else {
-    xx = arr[idx] + go(idx + 2 , 2);
-  }
-  return dp[idx][tt] = max(xx,yy);
-
+ll kad() {
+	ll mx = 0 , curr_mx = 0;
+	for(int i = 0; i < bb.size() ; i++) {
+		curr_mx = max(curr_mx + bb[i] , 0LL);
+		mx = max(mx , curr_mx);
+	}
+	return mx;
 }
 
-void clear() {
-  for(int i = 0; i < n + 10 ; i++) {
-    dp[i][0] = dp[i][1] = dp[i][2] = -1;
-  }
-}
+void solve() {
+	ll n;
+	cin>>n;
+	vector<ll> arr(n);
+	ll curr = 0;
+	for(int i = 0; i < n ; i++) {
+		cin>>arr[i];
+		if(i%2 == 0) {
+			curr += arr[i];
+		}
+	}
 
-void solve(){
-  cin >> n;
-  clear();
-  arr.clear();
-  for(int i = 0; i < n; i++) {
-    ll xx ; cin >> xx;
-    arr.pb(xx);
-  }
-  ll xx = go(0,0);
-  if(n%2 == 0) {
-    arr.pb(0);
-  }
-  clear();
-  reverse(all(arr));
+	for(int i = 0 ; i < n - 1; i+=2){
+		bb.pb(arr[i+1] - arr[i]);
+	}
 
-  cout<<max(xx, go(0,0))<<"\n";
-}
+	ll xx = kad();
 
-int main(int argc, char const *argv[]){
-  ios_base::sync_with_stdio(0);cin.tie(NULL);cout.tie(NULL);
-  ll t = 1;
-  cin >> t;
-  while(t--){
-    solve();
-  }
-  return 0;
+	bb.clear();
+	for(int i = 1; i < n - 1; i+=2){
+		bb.pb(arr[i] - arr[i + 1]);
+	}
+
+	xx = max(xx , kad());
+	//cout<<xx<<" ";
+	cout<<max(curr + xx , curr)<<"\n";
+	bb.clear();
 }
+int main()
+{
+	DANGER;
+	ll t = 1;
+	cin>>t;
+	while(t--) {
+		solve();
+	}
+return 0;
+}
+//---->O ,,
