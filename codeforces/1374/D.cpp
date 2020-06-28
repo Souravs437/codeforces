@@ -46,7 +46,9 @@ void solve() {
 		brr[val]++;
 	}
 
-
+	// for(int i = 0 ; i < k ; i++) {
+	// 	cout<<brr[i]<<" ";
+	// }
 	// cout<<"\n";
 	ll ans = 0;
 	map<ll,ll> mp;
