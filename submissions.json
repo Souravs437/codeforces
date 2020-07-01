@@ -1,4 +1,22 @@
 {
+  "CF85606586": {
+    "contest_id": 295,
+    "language": "GNU C++14",
+    "path": "codeforces\\295\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Greg and Graph",
+    "problem_url": "https://codeforces.com/contest/295/problem/B",
+    "submission_id": "CF85606586",
+    "submission_url": "https://codeforces.com/contest/295/submission/85606586",
+    "tags": [
+      "dp",
+      "graphs",
+      "shortest paths",
+      "*1700"
+    ],
+    "timestamp": "Jul/01/2020 14:30"
+  },
   "CF85609525": {
     "contest_id": 161,
     "language": "GNU C++14",
