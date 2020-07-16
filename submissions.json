@@ -1,4 +1,22 @@
 {
+  "CF87022222": {
+    "contest_id": 913,
+    "language": "GNU C++14",
+    "path": "codeforces\\913\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Party Lemonade",
+    "problem_url": "https://codeforces.com/contest/913/problem/C",
+    "submission_id": "CF87022222",
+    "submission_url": "https://codeforces.com/contest/913/submission/87022222",
+    "tags": [
+      "bitmasks",
+      "dp",
+      "greedy",
+      "*1600"
+    ],
+    "timestamp": "Jul/17/2020 01:29"
+  },
   "CF87045796": {
     "contest_id": 580,
     "language": "GNU C++14",
