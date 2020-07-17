@@ -33,35 +33,46 @@ const ll mod = 1e9 + 7;
 #define DANGER std::ios::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL)
 ll n;
 string s;
+vector<ll> idx[26];
+map<pair<ll,pair<ll, char>> ,ll> dp;
 ll go(ll l , ll r ,char ch) {
 	if(l == r) {
-		return s[l] != ch;
+		return s[l-1] != ch;
 	}
 
+	if(dp.count({l,{r,ch}})) {
+		return dp[{l,{r,ch}}];
+	}
+
+	ll mid = (l + r) >> 1;
 	ll cntl = 0, cntr = 0;
-	int mid = (l + r) >> 1;
-	for(int i = l ; i <= mid ; i++) {
-		if(s[i] != ch) {
-			cntl++;
-		}
-	}
-	for(int i = mid + 1; i <= r ; i++) {
-		if(s[i] != ch) {
-			cntr++;
-		}
-	}
+	ll it1 = lower_bound(idx[ch - 'a'].begin() , idx[ch - 'a'].end() , l) - idx[ch - 'a'].begin();
+	ll it2 = upper_bound(idx[ch - 'a'].begin() , idx[ch - 'a'].end() , (l + r )/ 2) -  idx[ch - 'a'].begin();
 
-	ll xx = cntl + go(mid + 1 , r , (int)ch+1);
-	ll yy = cntr + go(l , mid , (int)ch + 1);
-	return min(xx, yy);
+	ll xx = (l + r) / 2 - l + 1 - it2 + it1;
+	it1 = lower_bound(idx[ch - 'a'].begin() , idx[ch - 'a'].end() , (l + r) / 2 + 1) - idx[ch - 'a'].begin();
+	it2 = upper_bound(idx[ch - 'a'].begin() , idx[ch - 'a'].end() , r) -  idx[ch - 'a'].begin();
+
+	ll yy  = r - (l + r) / 2 - it2 + it1 ;
+	//cout<<xx<<" "<<yy<<"\n";
+	xx += go((l+r) / 2 + 1, r , (int)ch + 1);
+	yy += go(l , (l+r) / 2 , (int)ch + 1);
+	return dp[{l,{r,ch}}] =  min(xx , yy);
 }
 
 void solve() {
 	cin>>n;
 	cin>>s;
+	for(int i = 0; i < s.size() ; i++) {
+		idx[s[i] - 'a'].pb(i+1);
+	}
 	//mem(dp , - 1);
-	cout<<go(0 , n - 1 , 'a')<<"\n";
+	cout<<go(1 , n , 'a')<<"\n";
 
+	for(int i = 0; i < 26 ; i++) {
+		idx[i].clear();
+	}
+	dp.clear();
 }
 int main()
 {
