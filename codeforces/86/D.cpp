@@ -18,6 +18,8 @@ ll n, m;
 ll sz;
 
 
+vector<ll> arr;
+vector<pair<pair<ll,ll>,ll>> quer;
 
 inline bool cmp(pair<pair<ll,ll>,ll> a, pair<pair<ll,ll>,ll> b) {
   if(a.first.first/sz == b.first.first/sz) {
@@ -48,8 +50,7 @@ inline void update(ll idx, ll tp) {
 
 void solve(){
   cin>>n>>m;
-  vector<ll> arr(n+1);
-  vector<pair<pair<ll,ll>,ll>> quer;
+  arr.resize(n+1);
   sz = sqrt(n) + 1;
   for(int i = 1; i <= n ; i++) {
     cin>>arr[i];
