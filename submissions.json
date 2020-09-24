@@ -1,4 +1,23 @@
 {
+  "CF93622649": {
+    "contest_id": 1409,
+    "language": "GNU C++14",
+    "path": "codeforces\\1409\\E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Two Platforms",
+    "problem_url": "https://codeforces.com/contest/1409/problem/E",
+    "submission_id": "CF93622649",
+    "submission_url": "https://codeforces.com/contest/1409/submission/93622649",
+    "tags": [
+      "binary search",
+      "dp",
+      "sortings",
+      "two pointers",
+      "*1800"
+    ],
+    "timestamp": "Sep/24/2020 14:04"
+  },
   "CF93684347": {
     "contest_id": 1420,
     "language": "GNU C++14",
